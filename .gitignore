@@ -1,0 +1,38 @@
+# Видео файлы
+*.mp4
+*.avi
+*.mkv
+*.mov
+*.wmv
+*.flv
+*.webm
+*.wav
+*.m4v
+*.ts
+*.mts
+*.m2ts
+*.mpg
+*.mpeg
+*.3gp
+*.vob
+
+# Папки с видео
+input/*
+output/*
+
+# Оставить пустые папки
+!input/.gitkeep
+!output/.gitkeep
+
+# Логи
+*.log
+compress_log_*.txt
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Временные
+*.tmp
+*_temp.*
